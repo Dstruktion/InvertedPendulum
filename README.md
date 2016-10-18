@@ -2,7 +2,7 @@ This works for 64 bit windows/matlab users only, .dylib files are the dynamic li
 also I don't even have a mac so no icode or whatever 
 If you have a mac/ linux, you might want to look into Java programming but asynchronous java input is not easy which is why it's done in C
 
-You will need the Visual Studio 2015 Redistributable located here, unless you have Visual Studio Community 2015 installed: 
+You will need the Visual Studio 2015 Redistributable located here, unless you have Visual Studio Community 2015 installed WITH C++ WHICH ISN'T INSTALLED BY DEFAULT: 
 https://www.microsoft.com/en-us/download/details.aspx?id=48145
 
 If you're dubious about the code in the .dll, it's included in "source.c"/"Header.h"
