@@ -7,8 +7,8 @@ https://www.microsoft.com/en-us/download/details.aspx?id=48145
 
 If you're dubious about the code in the .dll, it's included in "source.c"/"Header.h"
 Place "mproto.m", "MatlabAsyncKeys.dll", and "MatlabAsyncKeys_thunk_pcwin64.dll" in the same directory as your matlab code
-Before you run "source.m" in matlab, load the library via:
+Before you run THE "source.m" LOCATED INSIDE THIS GITHUB in matlab, load the library via:
 loadlibrary('MatlabAsyncKeys', @mproto)
-it shouldn't return anything and it be check if it was properly loaded via:
+it shouldn't return anything and you can check if it was properly loaded via:
 libisloaded('MatlabAsyncKeys')
 and it should return 1
